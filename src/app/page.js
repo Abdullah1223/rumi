@@ -24,7 +24,7 @@ const MotionDiv = ({ children, className, style, animate, initial, transition, .
   );
 };
 
-export default function RumiLoveCollection() {
+export default function Home() {
   const [currentPage, setCurrentPage] = useState('home');
   const [currentQuote, setCurrentQuote] = useState(0);
   const [hearts, setHearts] = useState([]);
